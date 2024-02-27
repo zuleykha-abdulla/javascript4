@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript-4</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Obyekt</a>
+        <a href="sekil.html">Kecid</a>
+        <a href="hidden.html">Hidden</a>
+        <a href="add.html">Əlavə</a>
+        <a href="classlist.html">List</a>
+        <span></span>
+      </nav>
+    </header>
+    <section>
+      <div class="stil">
+        <h3>
+          Document obyekti vasitəsilə elementin css xüsusiyyətlərinin
+          dəyişdirilməsi mümkündür. Məsələn, biz elə edə bilərik ki, düyməyə
+          basdıqda yazının rəngi dəyişilsin. Bu obyekt vasitəsilə css
+          xüsusiyyətlərinin dəyişdirilməsi üçün aşağıdakı sintaksisdən istifadə
+          olunur:
+          <br />
+          <span
+            >document.getElementById("id").style.xususiyyet="yeni deyer";
+          </span>
+        </h3>
+      </div>
+
+      <div id="tekst">
+        Beləliklə, düyməyə basdıqda yazının rəngi goy olmuş olur. Bu şəkildə
+        elementin istənilən css xüsusiyyətini dəyişə bilərik.
+      </div>
+      <button type="button" onclick="funksiya()" id="duyme">BUTTON</button>
+
+      <div class="arxa">
+        <h1>
+          Yazdığımız style özü də bir obyektdir və içərisində bir çox
+          xüsusiyyətləri daşımaqdadır. Onlardan bəzilərinə baxaq:
+        </h1>
+      </div>
+      <div class="arxafon">
+        Yazdığımız style özü də bir obyektdir və içərisində bir çox
+        xüsusiyyətləri daşımaqdadır. Onlardan bəzilərinə baxaq:
+        <ul>
+          <li>background xüsusiyyəti — elementin fonunu dəyişmək üçündür</li>
+          <li>backgroundColor — Yalnızca fon rəngini dəyişmək üçündür.</li>
+          <li>
+            backgroundImage — Fon şəklini təyin etmək üçün istifadə olunur.
+          </li>
+          <li>border — Çərçivəni təyin etmək üçün istifadə olunur.</li>
+          <li>
+            borderColor — Çərçivənin rəngini təyin etmək üçün istifadə olunur
+          </li>
+          <li>
+            borderBottom — Elementin aşağı çərçivəsini təyin etmək üçün istifadə
+            olunur.
+          </li>
+          <li>
+            borderLeftColor — Elementin sol çərçivəsinin rəngini təyin etmək
+            üçün isifadə olunur.
+          </li>
+          <li>
+            cursor — elementin üzərinə gələrkən mausun formasını dəyişmək üçün
+            istifadə olunur.
+          </li>
+          <li>opacity — elementin şəffaflığını təyin edir.</li>
+          <li>
+            lineHeight — Mətndə sətirlər arası məsafəni təyin etmək üçün
+            istifadə olunur.
+          </li>
+          <li>
+            fontSize — Elementin daxilindəki yazılarını ölçüsünü təyin etmək
+            üçün istifadə olunur.
+          </li>
+          <li>
+            margin — Elementin kənardan olan məsafəsini müəyyən etmək üçün
+            istifadə olunur.
+          </li>
+        </ul>
+      </div>
+      <div class="numune">
+        <h2>backgroundImage — Fon şəklini təyin etmək üçün istifadə olunur</h2>
+
+        <p>
+          Beləliklə, div elementinin arxa planına şəkil yerləşdirmiş oluruq.
+        </p>
+      </div>
+      <div id="metn">
+        Beləliklə, div elementinin arxa planına şəkil yerləşdirmiş oluruq.
+        Nəticədə qara rəngdə, 5px ölçüsündə və solid növündə çərçivə yaranmış
+        olur. Çərçivə növləri css-də mövcuddur. Solid növündən əlavə çərçivənin
+        aşağıdakı növləri də mövcuddur: dotted, dashed, double, groove, ridge,
+        inset, outset, none, hidden Sadəcə solid sözünün yerinə bu sözlərdən
+        birini yazaraq daha fərqli çərçivələr əldə edə bilərsiniz. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Unde recusandae harum
+        perspiciatis deleniti minima? Incidunt voluptate sed odio laborum cum
+        excepturi, harum dicta, obcaecati veritatis maxime provident fugiat
+        eligendi reiciendis?Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Possimus iste harum tempore magni vero dignissimos, voluptate,
+        tempora laborum cumque deserunt blanditiis enim vel nulla, id explicabo
+        pariatur atque reiciendis corrupti.
+      </div>
+    </section>
+    <script src="./app/script.js"></script>
+  </body>
+</html>

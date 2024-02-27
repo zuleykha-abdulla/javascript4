@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classlist</title>
+    <link rel="stylesheet" href="./css/classlist.css">
+</head>
+<body>
+    <section>
+        <div class="list">
+<h1>ClassList xüsusiyyəti 
+</h1>
+<p>Javascript daxilində classList xüsusiyyəti mövcuddur. Bu xüsusiyyət DOMTokenList verməkdədir. Onun içərisində isə elementin sinifləri yerləşməkdədir.</p>
+</div>
+        <h1 class="a b c" id="h1">Salam</h1>
+
+     
+
+<div class="netice">
+    <h1>Aşağıdaki şəkildəki verilmiş nümunəni nəzərdən keçirək:</h1>
+</div>
+    
+
+<div style="display: flex; align-items: center; gap: 30px; justify-content: center">
+    <img src="./img/Picture2.png" alt="" class="left">
+    
+    <img src="./img/Picture1.png" alt="" class="right">
+  </div>
+  <br>
+
+<p class="d e f g h" id="p">Nəticədə konsolda DOMTokenList və onun içində siniflərin olduğunu görəcəyik.
+</p>
+<div class="new">
+    <img src="./img/Picture4.png" alt="" class="center">
+</div>
+
+    </section>
+    <section class="first">
+<div class="add">
+    <h1>Bəzi funksiyalarla elementə sinifləri əlavə edə və silə bilərik
+    </h1>
+   
+  
+    <h2 id="h2">Welcome To Baku!</h2>
+
+
+    <button onclick="f()">Add</button>
+</div>
+<hr>
+<div class="remove">
+    <h1>Indi isə əlavə olunmuş sinifin silinmə qaydasıni nəzərdən keçirək.
+    </h1>
+    <h3 id="h3">God bless World!</h3>
+    <br>
+<button onclick="f1()">Add</button>
+<button onclick="f2()">Remove</button>
+<br>
+<br>
+<p>Burada birinci add düyməsinə klikləyərək sinifi elementə əlavə edək. Bundan sonra remove düyməsinə kliklədikdə sinif elementdən silinmiş olacaq. Beləliklə, add funksiyası ilə sinifi elementə əlavə edirik, remove funksiyası ilə silirik.
+</p>
+
+</div>
+<br>
+<hr>
+
+<div class="toggle">
+    <h1>Toggle</h1>
+    <p>Əlavə etmə və silməni özündə birləşdirən toggle funksiyası da mövcuddur. Bu funksiya sinif yoxdursa əlavə edir, varsa silir. Nümunəyə baxaq.
+    </p>
+    <br>
+    <h4 id="h4">Burada düyməyə bir dəfə kliklədikdə əlavə edir, ikinci dəfə kliklədikdə isə silir. Yəni, sinif yoxdursa əlavə edir, varsa silir.
+    </h4>
+<button onclick="f3()">Toggle</button>
+
+</div>
+<br>
+<hr>
+<br>
+<h5 class="next" id="h5">ClassList</h5>
+
+<button onclick="klassAdd()">Klass list elavə et</button>
+
+    </section>
+
+
+
+    </main>
+    <script src="./app/classlist.js"></script>
+</body>
+</html>
